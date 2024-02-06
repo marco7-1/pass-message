@@ -1,0 +1,41 @@
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+    }
+    .allmessage{
+        background-color: rgb(0, 0, 0);
+        border: 1px solid transparent;
+        color: white;
+        padding: 60px;
+        border-radius: 50px;
+    }
+    #passBtn{
+        background-color: rgb(112, 19, 182);
+        padding: 8px;
+        border-radius: 20px;
+        border: none;
+        border:  1px solid transparent;
+        font-size: 13px;
+        /* font-weight: 700; */
+        color: white;
+    }
+    h2{
+        text-align: center;
+    }
+    #textInput,#passMe{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        text-align: center;
+        align-items: center;
+    }
